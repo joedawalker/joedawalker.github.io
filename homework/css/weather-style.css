@@ -1,0 +1,98 @@
+/*Change the CSS box model*/
+
+html * {
+    box-sizing: border-box;
+}
+
+
+/**:before, *:after{
+    box-sizing: border-box;
+}*/
+
+body {
+    background-color: deepskyblue;
+    font-size: 24px;
+}
+
+nav,
+.title {
+    background-color: #808080;
+    padding: 0px;
+    border: 2px solid #000000;
+    margin: 0px;
+    margin-bottom: 8px;
+    display: flex;
+    color: white;
+}
+
+#main-title {
+    color: white;
+    font-family: Tahoma, Geneva, sans-serif;
+    padding-right: 10%;
+    margin-left: auto;
+    font-size: 140%;
+}
+
+#zip {
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 0px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 90%;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-grow: 2;
+    padding: 0px;
+}
+
+a:link,
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:active {
+    background-color: #666666;
+}
+
+.menu-item {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 80%;
+}
+
+.temperature {
+    background-color: #808080;
+    border: 2px solid #000000;
+    margin: 0px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.temperature > h2 {
+    color: white;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.variance {
+    flex-wrap: wrap;
+    color: white;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+#hi {
+    margin-bottom: 0px;
+}
+
+#lo {
+    margin-top: 0px;
+}
