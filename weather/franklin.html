@@ -1,17 +1,21 @@
 <!doctype html>
 <html lang="en-us">
-    <head>
+
+<head>
     <meta charset="UTF-8">
     <title>Franklin, ID | Weather Site | joedawalker.gitub.io </title>
     <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="/css/weather.css">
+
 </head>
 
 <body>
     <header>
-        <h1>&#9748; Weather Site</h1>
+        <img src="img-weather/umbrella-logo.png" alt="Site Logo" id="logo">
+        <h1>Weather Site</h1>
     </header>
     <nav>
-        <ul>
+        <ul class="menu">
             <li><a href="/index.html" title="Home">Home</a></li>
             <li><a href="franklin.html" title="Franklin">Franklin</a></li>
             <li><a href="#" title="Greenville">Greenville</a></li>
@@ -20,21 +24,24 @@
         </ul>
     </nav>
     <main>
-        <h1>Franklin, ID</h1>
-        <section>
-            <h3>Current Temp</h3>
-            <p>86 F</p>
-            <h4>Today's High and Low</h4>
-            <p>90 F / 66 F</p>
-        </section>
-        <section>
-            <h3>Current Conditions</h3>
-            <ul>
-                <li>Wind: Southwest @ 1-5 MPH</li>
-                <li>Precipitation: 0%</li>
+        <h2>Franklin, ID</h2>
+        <section class="overview">
+            <h3 id="temp-banner">Current Temp</h3>
+            <p id="temp">86 F</p>
+            <h4 id="sum-banner">Today's High and Low</h4>
+            <ul class="summary">
+                <li id="sum-img-li"><img src="img-weather/sunny.png" alt="Sunny Image" id="sunny-img"></li>
+                <li>90 F / 66 F</li>
             </ul>
-            <img src="img-weather/sunny.png" alt="The Sun">
-            <p>Sunny</p>
+        </section>
+        <section class="cur_conditions">
+            <h3>Current Conditions</h3>
+            <ul class="conditions">
+                <li class="label">Wind:</li>
+                <li>Southwest @ 1-5 MPH</li>
+                <li class="label">Precipitation:</li>
+                <li>0%</li>
+            </ul>
         </section>
     </main>
     <footer>
@@ -42,4 +49,5 @@
     </footer>
 
 </body>
+
 </html>
