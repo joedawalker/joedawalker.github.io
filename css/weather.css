@@ -241,8 +241,8 @@ footer {
     }
 
     h2 {
-        margin-left: .75em;
-        align-self: right;
+        margin-left: 25.5px;
+        align-self: flex-start;
     }
 
     #box-layout {
