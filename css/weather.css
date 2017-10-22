@@ -313,6 +313,7 @@ footer {
         display: flex;
         justify-content: space-between;
         width: 100px;
+        text-align: right;
     }
     .hr-temp ul {
         display: flex;
