@@ -25,24 +25,87 @@
     </nav>
     <main>
         <h2>Franklin, ID</h2>
-        <section class="overview">
-            <h3 id="temp-banner">Current Temp</h3>
-            <p id="temp">86 F</p>
-            <h4 id="sum-banner">Today's High and Low</h4>
-            <ul class="summary">
-                <li id="sum-img-li"><img src="img-weather/sunny.png" alt="Sunny Image" id="sunny-img"></li>
-                <li>90 F / 66 F</li>
-            </ul>
-        </section>
-        <section class="cur_conditions">
-            <h3>Current Conditions</h3>
-            <ul class="conditions">
-                <li class="label">Wind:</li>
-                <li>Southwest @ 1-5 MPH</li>
-                <li class="label">Precipitation:</li>
-                <li>0%</li>
-            </ul>
-        </section>
+        <div id="box-layout">
+            <section class="overview">
+                <h3 id="temp-banner">Current Temp</h3>
+                <p id="temp">86 F</p>
+                <h4 id="sum-banner">Today's High and Low</h4>
+                <ul class="summary">
+                    <li id="sum-img-li"><img src="img-weather/sunny.png" alt="Sunny Image" id="sunny-img"></li>
+                    <li>90 F / 66 F</li>
+                </ul>
+            </section>
+            <section class="cur_conditions">
+                <h3>Current Conditions</h3>
+                <ul class="conditions">
+                    <li class="label">Wind:</li>
+                    <li>Southwest @ 1-5 MPH</li>
+                    <li class="label">Precipitation:</li>
+                    <li>0%</li>
+                </ul>
+                <figure>
+                    <img src="img-weather/sunny.png" alt="sunny" id="cur-cond-img">
+                    <figcaption>Sunny</figcaption>
+                </figure>
+            </section>
+            <section class="hr-temp">
+                <h3>Hourly Forecast</h3>
+                <div class="hr-lists">
+                    <ul>
+                        <li>12am</li>
+                        <li>1am</li>
+                        <li>2am</li>
+                        <li>3am</li>
+                        <li>4am</li>
+                        <li>5am</li>
+                        <li>6am</li>
+                        <li>7am</li>
+                        <li>8am</li>
+                        <li>9am</li>
+                        <li>10am</li>
+                        <li>11am</li>
+                        <li>12pm</li>
+                        <li>1pm</li>
+                        <li>2pm</li>
+                        <li>3pm</li>
+                        <li>4pm</li>
+                        <li>5pm</li>
+                        <li>6pm</li>
+                        <li>7pm</li>
+                        <li>8pm</li>
+                        <li>9pm</li>
+                        <li>10pm</li>
+                        <li>11pm</li>
+                    </ul>
+                    <ul>
+                        <li>55F</li>
+                        <li>56F</li>
+                        <li>56F</li>
+                        <li>56F</li>
+                        <li>57F</li>
+                        <li>57F</li>
+                        <li>58F</li>
+                        <li>62F</li>
+                        <li>63F</li>
+                        <li>67F</li>
+                        <li>70F</li>
+                        <li>73F</li>
+                        <li>77F</li>
+                        <li>80F</li>
+                        <li>84F</li>
+                        <li>83F</li>
+                        <li>83F</li>
+                        <li>80F</li>
+                        <li>79F</li>
+                        <li>74F</li>
+                        <li>70F</li>
+                        <li>68F</li>
+                        <li>60F</li>
+                        <li>58F</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
     </main>
     <footer>
         &copy;2017 Weather Site | joedawalker.github.io

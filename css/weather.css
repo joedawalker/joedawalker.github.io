@@ -52,10 +52,12 @@ header {
     /* sets size of logo (top right corner) */
     width: 20%;
     height: auto;
+    margin-left: .5em;
 }
 
 h1 {
     margin-left: .5em;
+    font-size: 2em;
 }
 
 h2 {
@@ -111,10 +113,14 @@ main {
     flex-flow: column nowrap;
     align-items: center;
     background-color: #FFF;
-    /*
-    background-image: url(/weather/img-weather/sunny-winter.jpg);
-    image provided is not appropriate for the weater data
-    */
+    background-image: url(/weather/img-weather/sunny-day.jpg);
+
+}
+
+#box-layout {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
 }
 
 ul {
@@ -161,7 +167,7 @@ ul {
 
 #sum-img-li {
     height: 35px;
-    margin-right: 1em;
+    margin-right: .65em;
 }
 
 #sunny-img {
@@ -182,6 +188,11 @@ ul {
     border-radius: 10px;
 }
 
+figure {
+    display: none;
+}
+
+
 .conditions {
     display: flex;
     flex-flow: row wrap;
@@ -194,8 +205,121 @@ ul {
     margin-right: .5em;
 }
 
+.hr-temp {
+    display: none;
+}
+
 footer {
     font-size: .9em;
     margin-bottom: 45px;
     margin-left: .25em;
+}
+
+@media only screen and (min-width: 760px) {
+
+    #logo {
+        width: 5%;
+        height: auto;
+    }
+
+    nav {
+        position: static;
+        border-top-color: #000;
+        border-top: 2px solid;
+        border-bottom: 2px solid;
+        padding: 5px 0px;
+    }
+
+    .menu {
+        margin: 0;
+        font-size: 2em;
+        justify-content: flex-start;
+    }
+
+    .menu li {
+        margin-left: .75em;
+    }
+
+    h2 {
+        margin-left: .75em;
+        align-self: right;
+    }
+
+    #box-layout {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: flex-start;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .overview,
+    .cur_conditions,
+    .hr-temp {
+        margin-top: 20px;
+    }
+
+    #sum-img-li {
+        display: none;
+    }
+
+    figure {
+        display: flex;
+        align-items: center;
+        margin: 0em;
+    }
+
+    #cur-cond-img {
+        display: block;
+        width: 50%;
+        height: 50%;
+        justify-content: center;
+        margin: 0em .5em;
+    }
+
+    .cur_conditions {
+        order: -1;
+        max-width: 300px;
+    }
+
+    .overview {
+        max-width: 250px;
+    }
+
+    .hr-temp {
+        max-width: 300px;
+    }
+
+    #temp-banner {
+        display: block;
+    }
+
+    #sum-banner {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .hr-temp {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        width: 75%;
+        background-color: rgba(200, 200, 200, .6);
+        border: 1px solid;
+        border-radius: 10px;
+    }
+
+    .hr-lists {
+        display: flex;
+        justify-content: space-between;
+        width: 100px;
+    }
+    .hr-temp ul {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    footer {
+        margin-bottom: 10px;
+    }
 }
