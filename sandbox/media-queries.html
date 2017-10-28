@@ -68,6 +68,16 @@
             }
         }
 
+        /* Positioning
+        *  1. When an item is positioned.
+            a. look to an ancestor, itself was positioned.
+            b. if it finds an ancestor, takes its position from the ancestor.
+            c. if not, its position from body
+
+        *  2. Positioning removes element from normal flow it doesn't necessarily move it.
+
+        */
+
     </style>
 </head>
 
@@ -78,7 +88,7 @@
         </header>
         <nav id="page-nav">
             <ul>
-                <li>Home</li>
+                <li><a href="/index.html" title="Home Page">Home</a></li>
                 <li>Franklin</li>
                 <li>Greenville</li>
                 <li>Springfield</li>
