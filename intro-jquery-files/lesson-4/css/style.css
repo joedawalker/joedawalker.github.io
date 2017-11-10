@@ -78,7 +78,7 @@ body {
 
 .content {
 	position:relative;
-	height:669px;
+	height:668px;
 }
 
 .headImage {
@@ -155,9 +155,11 @@ body {
 
 .contentBoxes {
 	position:relative;
-	width:958px;
+	width:970px;
 	height:365px;
 	top:350px;
+	padding-bottom: 10px;
+
 }
 
 .boxes {

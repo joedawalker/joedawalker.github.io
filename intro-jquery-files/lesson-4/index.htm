@@ -11,23 +11,26 @@
         $(function() {
             // jQuery Code goes here
             //console.log($('input[type="text"]').css('background-color'));
-            /* var toggleStyle = function() {
+            const toggleStyle = function() {
 
                  let inputFields = $('input[type="text"]');
 
                  if (inputFields.css('background-color') === 'rgb(255, 0, 0)') {
                      // Set background color to white
                      inputFields.css('background-color', 'rgb(255, 255, 255)');
-                 } else {
+                 }
+                 else {
                      // Set background color to red
                      inputFields.css('background-color', 'rgb(255, 0, 0)');
                  }
              }
 
-             $('#ReqAQuoteBtn').click(toggleStyle);*/
-            /*$('.coreValues').append("<li><strong>This is brand new !!</strong></li>");
-            $("<li><strong>This is also great !!</strong></li>").appendTo(".coreValues");
-            $('.coreValues').prepend("<li><strong>This is brand new !!</strong></li>");*/
+             $('#ReqAQuoteBtn').click(toggleStyle);
+
+
+            //$('.coreValues').preappend("<li><strong>This is brand new !!</strong></li>");
+            $("<li><strong>This is also great !!</strong></li>").prependTo(".coreValues");
+            $('.coreValues').prepend("<li><strong>This is brand new !!</strong></li>");
 
             let nameVal = $('input[name="nameVal"]');
 
@@ -94,7 +97,7 @@
                 <div class="boxes box1">
                     <h2>The Values that Drive Us</h2>
                     <hr>
-                    <p>Alcove adopts various driving factors of corporate philosophy in our day to day activities that ultimately lead to success. We strive to achieve our value guidelines by incorporating our principles into each relationship with our clients to obtain long lasting customers. <br><br>Our core values : <br><br></p>
+                    <p>Alcove adopts various driving factors of corporate philosophy in our day to day activities that ultimately lead to success. We strive to achieve our value guidelines by incorporating our principles into each relationship with our clients to obtain long lasting customers. <br><br>Our core values :<br></p>
                     <ul class="coreValues">
                         <li>Innovative Ideas</li>
                         <li>Ownership</li>
