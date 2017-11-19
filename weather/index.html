@@ -1,13 +1,20 @@
 <!doctype html>
 <html lang="en-us">
 
-<head>
+    <head>
     <meta charset="UTF-8">
-    <title>Franklin, ID | Weather Site | joedawalker.gitub.io </title>
+    <title>Home | Weather Site | joedawalker.gitub.io </title>
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" type="text/css" href="/css/weather.css">
-
 </head>
+<!-- *********************************************
+* Who Did You Collaborate With On This Assessment?
+* 1. Joseph Walker
+* 2. Will Orchard
+* 3. Alex Matheson
+* 4.
+* 5.
+* ******************************************** -->
 
 <body>
     <header>
@@ -24,28 +31,28 @@
         </ul>
     </nav>
     <main>
-        <h2>Franklin, ID</h2>
+        <h2 id="location"></h2>
         <div id="box-layout">
             <section class="overview">
                 <h3 id="temp-banner">Current Temp</h3>
-                <p id="temp">86 F</p>
+                <p id="temp"></p>
                 <h4 id="sum-banner">Today's High and Low</h4>
                 <ul class="summary">
                     <li id="sum-img-li"><img src="img-weather/sunny.png" alt="Icon of the Sun" id="sum-img"></li>
-                    <li>90 F / 66 F</li>
+                    <li id="high-low">90 F / 66 F</li>
                 </ul>
             </section>
             <section class="cur_conditions">
                 <h3>Current Conditions</h3>
                 <ul class="conditions">
                     <li class="label">Wind:</li>
-                    <li>Southwest @ 1-5 MPH</li>
+                    <li id="wind"></li>
                     <li class="label">Precipitation:</li>
-                    <li>0%</li>
+                    <li id="precip">0%</li>
                 </ul>
                 <figure>
                     <img src="img-weather/sunny.png" alt="Icon of the Sun" id="cur-sum-img">
-                    <figcaption>Sunny</figcaption>
+                    <figcaption id="summary"></figcaption>
                 </figure>
             </section>
             <section class="hr-temp">
@@ -110,6 +117,8 @@
     <footer>
         &copy;2017 Weather Site | joedawalker.github.io
     </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="js/remote_wu.js"></script>
 
 </body>
 

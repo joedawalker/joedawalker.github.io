@@ -27,7 +27,7 @@ $(function () {
         dataType : "jsonp",
         success : function(data) {
             var location = data['location']['city'] + ", " + data['location']['state'];
-            var temp_f = data['current_observation']['temp_f'] + " F";
+            var temp_f = data['current_observation']['temp_f'] + " &#8457;";
             console.log("Current temperature in " + location + " is: " + temp_f);
             let summary_data = data['current_observation']['weather'];
             let relative_humidity = "Humidity: " + data['current_observation']['relative_humidity'];
@@ -47,6 +47,7 @@ $(function () {
             humidity.innerHTML = relative_humidity;
             wind_sum.innerHTML = wind;
             uv_index.innerHTML = uv;
+
 
 
 

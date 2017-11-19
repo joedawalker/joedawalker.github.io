@@ -170,7 +170,7 @@ ul {
     margin-right: .65em;
 }
 
-#sunny-img {
+#sum-img {
     width: 35px;
     height: auto;
 }
@@ -288,7 +288,7 @@ footer {
         margin: 0em;
     }
 
-    #cur-cond-img {
+    #cur-sum-img {
         display: block;
         width: 40%;
         height: 40%;
