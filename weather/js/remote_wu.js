@@ -27,7 +27,7 @@ $(function () {
             dataType: "jsonp",
             success: function (data) {
                 let location = data['location']['city'] + ", " + data['location']['state'];
-                let temp_f = data['current_observation']['temp_f'] + "&#8457;";
+                let temp_f = data['current_observation']['temp_f'];
                 console.log("Current temperature in " + location + " is: " + temp_f);
                 let summary_data = data['current_observation']['weather'];
                 let wind = data['current_observation']['wind_dir'] + " @ " + data['current_observation']['wind_mph'] + " MPH ";
@@ -39,11 +39,9 @@ $(function () {
 
 
                 city.innerHTML = location;
-                currentTemp.innerHTML = temp_f;
+                currentTemp.innerHTML = parseInt(temp_f) + "&#8457;";
                 summary.innerHTML = summary_data;
                 wind_sum.innerHTML = wind;
-                img.innerHTML = sum_img;
-                hi_lo.innerHTML = high_low;
 
 
 

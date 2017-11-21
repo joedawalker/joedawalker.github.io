@@ -26,8 +26,8 @@ $(function () {
         url : "http://api.wunderground.com/api/23ff9a854543e5a5/geolookup/conditions/q/" + lat + "," + long + ".json",
         dataType : "jsonp",
         success : function(data) {
-            var location = data['location']['city'] + ", " + data['location']['state'];
-            var temp_f = data['current_observation']['temp_f'] + " &#8457;";
+            let location = data['location']['city'] + ", " + data['location']['state'];
+            let temp_f = data['current_observation']['temp_f'];
             console.log("Current temperature in " + location + " is: " + temp_f);
             let summary_data = data['current_observation']['weather'];
             let relative_humidity = "Humidity: " + data['current_observation']['relative_humidity'];
@@ -42,7 +42,7 @@ $(function () {
             let uv_index = document.getElementById("add3");
 
             city.innerHTML = location;
-            currentTemp.innerHTML = temp_f;
+            currentTemp.innerHTML = parseInt(temp_f) + "&#8457;";
             summary.innerHTML = summary_data;
             humidity.innerHTML = relative_humidity;
             wind_sum.innerHTML = wind;
