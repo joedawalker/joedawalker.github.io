@@ -48,10 +48,16 @@ $(function () {
             wind_sum.innerHTML = wind;
             uv_index.innerHTML = uv;
 
+            $("#google").attr("src", "http://pngimages.net/sites/default/files/thunderstorm--night-png-image-9697.png");
+
+            /*let link = document.getElementById("google").attr('href');
+            link.innerHTML = "google.com";*/
 
 
 
-      $("#cover").fadeOut(250);
+
+
+            $("#cover").fadeOut(250);
     }
            });
 

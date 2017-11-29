@@ -109,6 +109,7 @@ a:hover {
 
 
 main {
+    min-height: 500px;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -121,6 +122,32 @@ main {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: rgba(200, 200, 200, .6);
+    border: 1px solid;
+    border-color: #000;
+    border-radius: 10px;
+}
+
+#query {
+    width: 80%;
+    text-decoration: none;
+    color: #FFF;
+    padding: 0px;
+}
+
+#send {
+    color: #fff;
+}
+
+ol {
+    list-style: none;
+    padding: 0px;
 }
 
 ul {
@@ -259,9 +286,53 @@ footer {
         margin-left: .75em;
     }
 
+    main {
+        min-height: 500px;
+    }
+
     h2 {
         margin-left: 25.5px;
         align-self: flex-start;
+    }
+
+    form {
+        width: 80%;
+        display: flex;
+        flex-flow: row nowrap;
+        background-color: rgba(200, 200, 200, .6);
+        border: 1px solid;
+        border-color: #000;
+        border-radius: 5px;
+        padding-left: 5px;
+    }
+
+    #query {
+        width: 89.5%;
+        height: 30px;
+        text-decoration: none;
+        font-size: 26px;
+        color: #FFF;
+        background-color: rgba(200, 200, 200, .6);
+        border: 0px;
+
+        padding: 0px;
+    }
+
+    #send {
+        width: 10%;
+        color: #000;
+        background-color: rgba(200, 200, 200, .6);
+        border: 0px;
+        padding: 0px;
+    }
+
+    .sreturn a:hover {
+        color: #000;
+        text-decoration: none;
+    }
+
+    #toggle {
+        width: 100%;
     }
 
     #box-layout {
@@ -300,6 +371,11 @@ footer {
         order: -1;
         max-width: 300px;
     }
+
+    #order1 {
+        order: -2;
+    }
+
 
     .overview {
         max-width: 250px;

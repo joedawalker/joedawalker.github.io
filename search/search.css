@@ -1,0 +1,11 @@
+h2 {
+    color: dodgerblue;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: deeppink;
+}

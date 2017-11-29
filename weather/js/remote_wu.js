@@ -23,7 +23,7 @@ $(function () {
     // Get the data from the wunderground API
     function getData(lat, long) {
         $.ajax({
-            url: "http://api.wunderground.com/api/23ff9a854543e5a5/geolookup/conditions/q/" + lat + "," + long + ".json",
+            url: "http://api.wunderground.com/api/23ff9a854543e5a5/geolookup/conditions/forecast/q/" + lat + "," + long + ".json",
             dataType: "jsonp",
             success: function (data) {
                 let location = data['location']['city'] + ", " + data['location']['state'];
@@ -31,18 +31,19 @@ $(function () {
                 console.log("Current temperature in " + location + " is: " + temp_f);
                 let summary_data = data['current_observation']['weather'];
                 let wind = data['current_observation']['wind_dir'] + " @ " + data['current_observation']['wind_mph'] + " MPH ";
-
-                let city = document.getElementById("location");
-                let currentTemp = document.getElementById("temp");
-                let summary = document.getElementById("summary");
-                let wind_sum = document.getElementById("wind");
+                let hi = data['forecast']['simpleforecast']['forecastday'][1]['high']['fahrenheit'];
+                let lo = data['forecast']['simpleforecast']['forecastday'][1]['low']['fahrenheit'];
+                let icon = data['current_observation']['icon_url'];
 
 
-                city.innerHTML = location;
-                currentTemp.innerHTML = parseInt(temp_f) + "&#8457;";
-                summary.innerHTML = summary_data;
-                wind_sum.innerHTML = wind;
+                $("#location").text(location);
+                $("#temp").html(parseInt(temp_f) + "&#8457;");
+                $("#high-low").html(parseInt(hi) + "&#8457; / " + parseInt(lo) + "&#8457;");
 
+                $("#summary").text(summary_data);
+                $("#wind").text(wind);
+                $("title").html(location + " | Weather Site | joedawalker.github.io");
+                $("#cur-sum-img, #sum-img").attr("src", icon);
 
 
                 $("#cover").fadeOut(250);
@@ -50,6 +51,8 @@ $(function () {
         });
 
     }
+
+
 
     // A function for changing a string to TitleCase
     function toTitleCase(str) {
