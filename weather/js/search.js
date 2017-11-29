@@ -48,7 +48,7 @@ $('#query').keyup(function(){
         $.each(data.RESULTS, function(key, val) {
             if (val.name.search(rExp) != -1) {
                 output += '<li>';
-                output += '<a href="//api.wunderground.com/api/23ff9a854543e5a5/geolookup/conditions/forecast/q/' + val.l + '.json" title="See results for ' + val.name + '">' + val.name + '</a>';
+                output += '<a href="https//api.wunderground.com/api/23ff9a854543e5a5/geolookup/conditions/forecast/q/' + val.l + '.json" title="See results for ' + val.name + '">' + val.name + '</a>';
                 output += '</li>';
             }
         }); // end each

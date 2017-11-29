@@ -50,79 +50,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="search.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/weather/js/search.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="58" column="28" lean-forward="false" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
+            <state relative-caret-position="750">
+              <caret line="50" column="41" lean-forward="false" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sample.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weather/js/sample.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!block;n#response#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#txt_forecast#0;n#!!block;n#forecast#0;n#!!top" expanded="false" />
-                <element signature="e#256#687#0" expanded="false" />
-                <element signature="e#3717#4186#0" expanded="false" />
-                <element signature="e#4309#4376#0" expanded="false" />
-                <element signature="e#4594#4647#0" expanded="false" />
-                <element signature="e#4668#4721#0" expanded="false" />
-                <element signature="e#4744#4797#0" expanded="false" />
-                <element signature="e#4822#4870#0" expanded="false" />
-                <element signature="e#4892#4940#0" expanded="false" />
-                <element signature="e#4964#5012#0" expanded="false" />
-                <element signature="e#5033#5136#0" expanded="false" />
-                <element signature="e#5157#5260#0" expanded="false" />
-                <element signature="e#5369#5840#0" expanded="false" />
-                <element signature="e#5879#5946#0" expanded="false" />
-                <element signature="e#5963#6030#0" expanded="false" />
-                <element signature="e#6248#6301#0" expanded="false" />
-                <element signature="e#6322#6375#0" expanded="false" />
-                <element signature="e#6398#6451#0" expanded="false" />
-                <element signature="e#6476#6524#0" expanded="false" />
-                <element signature="e#6546#6594#0" expanded="false" />
-                <element signature="e#6618#6666#0" expanded="false" />
-                <element signature="e#6687#6789#0" expanded="false" />
-                <element signature="e#6810#6911#0" expanded="false" />
-                <element signature="e#7002#8653#0" expanded="false" />
-                <element signature="e#7020#7490#0" expanded="false" />
-                <element signature="e#7529#7596#0" expanded="false" />
-                <element signature="e#7613#7680#0" expanded="false" />
-                <element signature="e#7899#7952#0" expanded="false" />
-                <element signature="e#7973#8026#0" expanded="false" />
-                <element signature="e#8049#8102#0" expanded="false" />
-                <element signature="e#8127#8175#0" expanded="false" />
-                <element signature="e#8197#8245#0" expanded="false" />
-                <element signature="e#8269#8317#0" expanded="false" />
-                <element signature="e#8338#8441#0" expanded="false" />
-                <element signature="e#8462#8564#0" expanded="false" />
-                <element signature="e#8655#10294#0" expanded="false" />
-                <element signature="e#8673#9141#0" expanded="false" />
-                <element signature="e#9180#9247#0" expanded="false" />
-                <element signature="e#9264#9331#0" expanded="false" />
-                <element signature="e#9539#9592#0" expanded="false" />
-                <element signature="e#9613#9666#0" expanded="false" />
-                <element signature="e#9689#9742#0" expanded="false" />
-                <element signature="e#9767#9815#0" expanded="false" />
-                <element signature="e#9837#9885#0" expanded="false" />
-                <element signature="e#9909#9957#0" expanded="false" />
-                <element signature="e#9978#10081#0" expanded="false" />
-                <element signature="e#10102#10205#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="remote_wu.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="remote_wu.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weather/js/remote_wu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
+            <state relative-caret-position="90">
               <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
               <folding />
             </state>
@@ -161,8 +102,8 @@
         <option value="$PROJECT_DIR$/weather/js/sample.json" />
         <option value="$PROJECT_DIR$/jsonweather-html/scripts/remote_wu.js" />
         <option value="$PROJECT_DIR$/jsonweather-html/index.html" />
-        <option value="$PROJECT_DIR$/weather/js/search.js" />
         <option value="$PROJECT_DIR$/weather/js/remote_wu.js" />
+        <option value="$PROJECT_DIR$/weather/js/search.js" />
       </list>
     </option>
   </component>
@@ -281,12 +222,12 @@
       <workItem from="1510766582535" duration="7206000" />
       <workItem from="1511022588923" duration="20225000" />
       <workItem from="1511279666174" duration="1089000" />
-      <workItem from="1511803971161" duration="22833000" />
+      <workItem from="1511803971161" duration="22980000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52904000" />
+    <option name="totallyTimeSpent" value="53051000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -616,6 +557,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/weather/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-386">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1511943832712" expanded="false" signature="2776:2782" ph="©" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsonweather-html/scripts/remote_wu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="48" column="36" lean-forward="true" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsonweather-html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="35" column="39" lean-forward="false" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/js/remote_wu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/weather/js/sample.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -675,42 +650,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/weather/js/search.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="58" column="28" lean-forward="false" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weather/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-386">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1511943832712" expanded="false" signature="2776:2782" ph="©" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsonweather-html/scripts/remote_wu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="48" column="36" lean-forward="true" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsonweather-html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="35" column="39" lean-forward="false" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weather/js/remote_wu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        <state relative-caret-position="750">
+          <caret line="50" column="41" lean-forward="false" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
           <folding />
         </state>
       </provider>
