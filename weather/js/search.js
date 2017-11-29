@@ -42,13 +42,13 @@ $('#query').keyup(function(){
     $("#toggle").css( "display", "none" );
     let value = $('#query').val();
     let rExp = new RegExp(value, "i");
-    $.getJSON("//autocomplete.wunderground.com/aq?query=" + value + "&cb=?", function (data) {
+    $.getJSON("https://autocomplete.wunderground.com/aq?query=" + value + "&cb=?", function (data) {
         console.log(data);
         let output = '<ol class="sreturn">';
         $.each(data.RESULTS, function(key, val) {
             if (val.name.search(rExp) != -1) {
                 output += '<li>';
-                output += '<a href="//api.wunderground.com/api/23ff9a854543e5a5/geolookup/conditions/forecast' + val.l + '.json" title="See results for ' + val.name + '">' + val.name + '</a>';
+                output += '<a href="https://api.wunderground.com/api/23ff9a854543e5a5/geolookup/conditions/forecast' + val.l + '.json" title="See results for ' + val.name + '">' + val.name + '</a>';
                 output += '</li>';
             }
         }); // end each
