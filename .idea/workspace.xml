@@ -25,7 +25,8 @@
               <caret line="70" column="38" lean-forward="false" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
               <folding>
                 <element signature="n#ul#0;n#div#0;n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#4238#4244#0" expanded="true" />
+                <marker date="1513008019136" expanded="true" signature="4358:4590" ph="..." />
+                <marker date="1513008019136" expanded="true" signature="4392:4398" ph="©" />
               </folding>
             </state>
           </provider>
@@ -41,11 +42,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="acme.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="acme.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/acme/css/acme.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
-              <caret line="259" column="25" lean-forward="false" selection-start-line="259" selection-start-column="25" selection-end-line="259" selection-end-column="25" />
+              <caret line="270" column="25" lean-forward="false" selection-start-line="270" selection-start-column="25" selection-end-line="270" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="44" lean-forward="false" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -116,7 +127,6 @@
         <option value="$PROJECT_DIR$/jsonweather-html/scripts/modules.js" />
         <option value="$PROJECT_DIR$/css/weather.css" />
         <option value="$PROJECT_DIR$/weather/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/weather/greenville.html" />
         <option value="$PROJECT_DIR$/weather/franklin.html" />
         <option value="$PROJECT_DIR$/search/search.html" />
@@ -137,6 +147,7 @@
         <option value="$PROJECT_DIR$/acme/index.html" />
         <option value="$PROJECT_DIR$/acme/js/acme.js" />
         <option value="$PROJECT_DIR$/acme/css/acme.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -176,36 +187,6 @@
               <item name="joedawalker.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="joedawalker.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="acme" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="joedawalker.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="joedawalker.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="acme" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="joedawalker.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="joedawalker.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="acme" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="products" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="joedawalker.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="joedawalker.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="acme" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="joedawalker.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="joedawalker.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="responsive_media" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="joedawalker.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="joedawalker.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="responsive_media" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -279,12 +260,12 @@
       <workItem from="1512150794650" duration="1387000" />
       <workItem from="1512407945838" duration="6594000" />
       <workItem from="1512580284581" duration="16951000" />
-      <workItem from="1512992361944" duration="10150000" />
+      <workItem from="1512992361944" duration="10514000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89036000" />
+    <option name="totallyTimeSpent" value="89400000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -408,13 +389,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="37" lean-forward="false" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -654,7 +628,8 @@
           <caret line="70" column="38" lean-forward="false" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
           <folding>
             <element signature="n#ul#0;n#div#0;n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#4238#4244#0" expanded="true" />
+            <marker date="1513008019136" expanded="true" signature="4358:4590" ph="..." />
+            <marker date="1513008019136" expanded="true" signature="4392:4398" ph="©" />
           </folding>
         </state>
       </provider>
@@ -662,7 +637,15 @@
     <entry file="file://$PROJECT_DIR$/acme/css/acme.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
-          <caret line="259" column="25" lean-forward="false" selection-start-line="259" selection-start-column="25" selection-end-line="259" selection-end-column="25" />
+          <caret line="270" column="25" lean-forward="false" selection-start-line="270" selection-start-column="25" selection-end-line="270" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="44" lean-forward="false" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
           <folding />
         </state>
       </provider>
