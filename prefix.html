@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!--The head describes the content of the page to the browser-->
+    <meta charset="utf-8">
+    <title>Home | joedawalker.github.io</title>
+    <script>
+        function pref(a, b) {
+
+
+            let word1 = a.split("", 3);
+            let word2 = b.split("", 3);
+            let count = 0;
+
+            while (word1[count] == word2[count]) {
+                count++;
+                if (count = 3) {
+                    break;
+                }
+            }
+            if (count >= 3) {
+                var prefix = word1.join("");
+                //console.log(prefix.join(""));
+                return prefix;
+
+            }
+            //console.log(prefix[0], prefix[1], prefix[2]);
+            //document.getElementById('brand').innerHTML = prefix[0];
+        }
+
+        string = pref("Disable", "Distasteful");
+        console.log(string);
+
+    </script>
+</head>
+
+<body>
+    <!--The body holds all of the content of the page-->
+    <div id="wrapper">
+        <header>
+            <!--Header identifies the site to the site users-->
+            <div id="brand">
+            </div>
+        </header>
+        <nav>
+            <!--Allows users to move from page to page within the website-->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="design-analysis-assessment.html">Design Analysis Assesment</a></li>
+                <li><a href="homework/weather-plan.html">Weather Site Plan</a></li>
+                <li><a href="responsive_media/index.html">Responsive Media</a></li>
+                <li><a href="intro-jquery-files/lesson-4/index.htm">jQuery: Assessment</a></li>
+                <li><a href="jsonweather-html/index.html">Current Location Assessment</a></li>
+                <li><a href="weather/index.html">Weather Site</a></li>
+                <li><a href="menu-activity/index.html">Menu Activity</a></li>
+                <li><a href="search/search.html">Search Activity</a></li>
+
+            </ul>
+        </nav>
+        <main>
+            <!--The main content of the webpage-->
+            <h1>Joseph Walker</h1>
+        </main>
+        <footer>
+            <!--The footer provides information related to the website as a whole-->
+            &copy;2017, Joseph Walker
+        </footer>
+    </div>
+</body>
+
+</html>

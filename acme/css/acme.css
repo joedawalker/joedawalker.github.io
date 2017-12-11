@@ -1,0 +1,275 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Verdana', sans-serif;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html {
+    background: url(../images/site/background.jpg) center center fixed;
+}
+
+header {
+    background-color: #ffffff;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    background-color: #de2226;
+    padding: 8px 0px;
+}
+
+noscript {
+    margin-left: 10px;
+    color: #ffffff;
+    font-size: 2em;
+}
+
+.navbar {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.1em;
+}
+
+.navbar a:link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navbar a:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+.navbar a:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+main {
+    background-color: #ffffff;
+    min-height: 100px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+}
+
+#advertisement-banner {
+    background-image: url("/acme/images/site/feature.jpg");
+    background-size: cover;
+    min-height: 400px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#rocket-ad {
+    color: #990033;
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-left: 5px;
+}
+
+#btnitem {
+    margin: 245px 0 0 0;
+}
+
+h1 {
+    padding: 5px 0;
+    margin-left: 5px;
+}
+
+h3 {
+    margin: 20px 0 10px 5px;
+}
+
+#featured-recipes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+figure {
+    margin: 0;
+    width: 150px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+#figure1 {
+    margin-bottom: 10px;
+}
+
+figcaption {
+    width: 100px;
+    text-align: center;
+}
+
+#reviews {
+    padding-bottom: 20px;
+}
+
+#reviews ul {
+    padding-left: 15px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    height: 200px;
+}
+
+#item-display {
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+#item-image {
+    display: flex;
+    justify-content: center;
+}
+
+#item-info {
+    margin: 10px 0px;
+    max-width: 95%;
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+
+#side-align {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bold {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#manufacturer {
+    margin: 10px 35% 0px 10px;
+}
+
+#item-reviews {
+    margin-top: 10px;
+}
+
+#price-align {
+    display: flex;
+
+}
+
+.price {
+    margin: 10px 10px 0 auto;
+    color: #de2226;
+    font-size: 2em;
+}
+
+#price {
+    margin: 10px 0 0 0;
+    color: #de2226;
+    font-size: 2em;
+}
+
+hr {
+    border-width: 2px;
+    border-color: #000000;
+    width: 97.5%;
+    margin: 8px 0px;
+}
+
+footer {
+    background-color: #ffffff;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    /*margin: 0px 4px;
+    border-top: 5px solid;*/
+}
+
+p {
+    margin: 0px 15px;
+    padding: 0px;
+}
+
+@media only screen and (min-width: 750px) {
+    html {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+    }
+
+    #page-display {
+        min-width: 750px;
+        max-width: 1000px;
+    }
+
+    .navbar {
+        margin-right: 40%;
+        font-size: 1.5em;
+    }
+
+    #advertisement-banner {
+        min-height: 400px;
+    }
+
+    #featured-content {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #recipes {
+        max-width: 40%;
+    }
+
+    #reviews {
+        max-width: 40%;
+    }
+
+    #item-display {
+        flex-flow: row nowrap;
+    }
+
+    #item-image {
+        width: 40%;
+    }
+
+    #item-image img {
+        max-width: 80%;
+    }
+
+    #item-info {
+        max-width: 50%;
+    }
+
+    #manufacturer {
+        margin-right: 50%;
+    }
+
+
+}
