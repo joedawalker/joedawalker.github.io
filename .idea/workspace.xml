@@ -18,16 +18,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="template.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/acme/template.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="6" lean-forward="false" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/acme/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="70" column="38" lean-forward="false" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
+            <state relative-caret-position="-648">
+              <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="27" />
               <folding>
-                <element signature="n#ul#0;n#div#0;n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <marker date="1513008019136" expanded="true" signature="4358:4590" ph="..." />
-                <marker date="1513008019136" expanded="true" signature="4392:4398" ph="©" />
+                <element signature="e#4556#4562#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="acme.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/acme/css/acme.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="249" column="25" lean-forward="false" selection-start-line="249" selection-start-column="25" selection-end-line="249" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -35,28 +53,8 @@
       <file leaf-file-name="acme.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/acme/js/acme.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="56" column="43" lean-forward="false" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="acme.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acme/css/acme.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="270" column="25" lean-forward="false" selection-start-line="270" selection-start-column="25" selection-end-line="270" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="44" lean-forward="false" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+            <state relative-caret-position="510">
+              <caret line="56" column="44" lean-forward="false" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -65,8 +63,32 @@
       <file leaf-file-name="acme.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/acme/js/acme.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="34" column="56" lean-forward="false" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
+            <state relative-caret-position="105">
+              <caret line="7" column="52" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="anvil-small.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/acme/images/products/anvil-small.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="roadrunner-small.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/acme/images/products/roadrunner-small.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="31" column="44" lean-forward="false" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -81,20 +103,6 @@
       </file>
       <file leaf-file-name="anvil.png" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/acme/images/products/anvil.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="trap.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acme/images/products/trap.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tnt.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acme/images/products/tnt.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
@@ -141,13 +149,13 @@
         <option value="$PROJECT_DIR$/jsonweather-html/index.html" />
         <option value="$PROJECT_DIR$/weather/js/search.js" />
         <option value="$PROJECT_DIR$/weather/js/remote_wu.js" />
-        <option value="$PROJECT_DIR$/acme/template.html" />
         <option value="$PROJECT_DIR$/responsive_media/index.html" />
         <option value="$PROJECT_DIR$/acme/js/acme.json" />
-        <option value="$PROJECT_DIR$/acme/index.html" />
-        <option value="$PROJECT_DIR$/acme/js/acme.js" />
-        <option value="$PROJECT_DIR$/acme/css/acme.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/acme/js/acme.js" />
+        <option value="$PROJECT_DIR$/acme/index.html" />
+        <option value="$PROJECT_DIR$/acme/template.html" />
+        <option value="$PROJECT_DIR$/acme/css/acme.css" />
       </list>
     </option>
   </component>
@@ -187,6 +195,18 @@
               <item name="joedawalker.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="joedawalker.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="acme" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="joedawalker.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="joedawalker.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="acme" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="joedawalker.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="joedawalker.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="acme" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -260,12 +280,12 @@
       <workItem from="1512150794650" duration="1387000" />
       <workItem from="1512407945838" duration="6594000" />
       <workItem from="1512580284581" duration="16951000" />
-      <workItem from="1512992361944" duration="10514000" />
+      <workItem from="1512992361944" duration="13476000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89400000" />
+    <option name="totallyTimeSpent" value="92362000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -330,8 +350,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/app-root-path/index.js" />
-    <entry file="file://$PROJECT_DIR$/e2e/app.po.ts" />
     <entry file="file://$PROJECT_DIR$/src/test.ts" />
     <entry file="file://$PROJECT_DIR$/src/app/header.component.ts" />
     <entry file="file://$PROJECT_DIR$/src/app/index.ts" />
@@ -506,16 +524,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/acme/template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="3" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#586#592#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/acme/images/site/feature.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -606,46 +614,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="31" column="44" lean-forward="false" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acme/images/products/anvil-small.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acme/images/products/roadrunner-small.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/acme/js/acme.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="34" column="56" lean-forward="false" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
+        <state relative-caret-position="105">
+          <caret line="7" column="52" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/acme/js/acme.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="56" column="43" lean-forward="false" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
+        <state relative-caret-position="510">
+          <caret line="56" column="44" lean-forward="false" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/acme/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="70" column="38" lean-forward="false" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
+        <state relative-caret-position="-648">
+          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="27" />
           <folding>
-            <element signature="n#ul#0;n#div#0;n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1513008019136" expanded="true" signature="4358:4590" ph="..." />
-            <marker date="1513008019136" expanded="true" signature="4392:4398" ph="©" />
+            <element signature="e#4556#4562#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acme/template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="6" lean-forward="false" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/acme/css/acme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="270" column="25" lean-forward="false" selection-start-line="270" selection-start-column="25" selection-end-line="270" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="44" lean-forward="false" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+        <state relative-caret-position="264">
+          <caret line="249" column="25" lean-forward="false" selection-start-line="249" selection-start-column="25" selection-end-line="249" selection-end-column="25" />
           <folding />
         </state>
       </provider>

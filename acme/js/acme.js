@@ -23,6 +23,7 @@ $(function () {
         if (pageName == "Home") {
             $("#products").css( "display", "none" );
             $("#home-content").css( "display", "block" );
+            $("title").html(pageName + " | ACME | joedawalker.github.io");
         }
         else {
             $("#home-content").css( "display", "none" );
@@ -53,7 +54,7 @@ $(function () {
                         '</picture>');
                     $("#description").text(desc);
                     $("#manufacturer").text(manufacturer);
-                    $("#item-reviews").text(reviews);
+                    $("#item-reviews").text(reviews + '/5 stars');
                     $("#price").text("$" + price);
                 }
             });
