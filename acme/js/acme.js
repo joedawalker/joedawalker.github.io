@@ -34,7 +34,7 @@ $(function () {
                 , dataType: "json"
                 , success: function (data) {
                     //console.log(data);
-                    //console.log(data[pageName]);
+                    console.log(data[pageName]);
                     let name = data[pageName].name;
                     let imgPath = data[pageName].path;
                     let pathSmall= data[pageName].pathSmall;
